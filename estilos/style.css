@@ -13,6 +13,7 @@
 
 * {
     font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,7 +23,7 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(0deg, var(--cor01), var(--cor02));
+    background: linear-gradient(45deg, var(--cor01), var(--cor02));
 }
 
 main {
@@ -36,8 +37,8 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 645px;
-    width:400px;
+    height: 95%;
+    width:450px;
     border-radius: 1rem;
     background-color: var(--cor03);
     overflow: hidden;
