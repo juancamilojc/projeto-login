@@ -56,7 +56,8 @@
     section#login {
         display: inline;
         height: 90%;
-        max-width: 70%;
+        width: 70%;
+        max-width: 75%;
     }
 
     section#login > div#imagem {
@@ -106,6 +107,7 @@
         display: inline;
         height: 90%;
         width: 70%;
+        max-width: 75%;
     }
 
     section#login > div#imagem {
