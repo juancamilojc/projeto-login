@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 0.25s;
+    transition: 0.3s;
 }
 
 html, body {
@@ -59,10 +59,11 @@ section#login > div#formulario {
 }
 
 section#login > div#formulario > h1 {
-    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
 }
 
-section#login > div#formulario > h1, section#login > div#formulario > p {
+section#login > div#formulario > p {
     margin-bottom: 1rem;
 }
 
