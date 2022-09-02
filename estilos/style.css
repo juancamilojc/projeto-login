@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* mobile first */
+
+:root {
+  --cor01: #49a09d;
+  --cor02: #572c82;
+  --cor03: #ffffff;
+  --cor04: #141414;
+}
+
+
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.25s;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, var(--cor01), var(--cor02));
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 95%;
+    width:70%;
+    border-radius: 1rem;
+    background-color: var(--cor03);
+    overflow: hidden;
+    box-shadow: 0.25rem 0.25rem 1rem #14141450;
+}
+
+section#login > div#imagem {
+    display: block;
+    height: 50%;
+    background: var(--cor04) url(../imagens/img01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 1rem;
+}
+
+section#login > div#formulario > h1 {
+    margin-bottom: 0.5rem;
+}
+
+section#login > div#formulario > h1, section#login > div#formulario > p {
+    margin-bottom: 1rem;
+}
+
+form > div#mail, form > div#passw {
+    display: block;
+    position: relative;
+    margin: 0.5rem 0;
+    padding: 0.25rem 0.5rem 0.1rem;
+    background-color: var(--cor02);
+    color: var(--cor03);
+    border-radius: 0.5rem;
+}
+
+form > div#mail input[type = email], form > div#passw input[type = password] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    height: 100%;
+    width: 90%;
+    border: 0.15rem solid var(--cor02);
+    border-radius: 0.5rem;
+}
+
+form div#botoes {
+    margin-top: 1rem;
+}
+
+form div#botoes input[type = submit], form div#botoes input[type = button] {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: var(--cor01);
+    color: var(--cor03);
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+form div#botoes input[type = button] {
+    padding: 0.35rem;
+    background-color: var(--cor03);
+    color: var(--cor01);
+    border: 0.15rem solid var(--cor01);
+}
