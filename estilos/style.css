@@ -23,7 +23,10 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(45deg, var(--cor01), var(--cor02));
+}
+
+body {
+    background: var(--cor02);
 }
 
 main {
@@ -43,11 +46,13 @@ section#login {
     background-color: var(--cor03);
     overflow: hidden;
     box-shadow: 0.25rem 0.25rem 1rem #14141450;
+    transition: width .3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    height: 40%;
+    height: 30%;
     background: var(--cor04) url(../imagens/img01.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -55,6 +60,7 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
+    margin: auto;
     padding: 1rem;
 }
 

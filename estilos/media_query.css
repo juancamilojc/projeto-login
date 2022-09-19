@@ -3,25 +3,27 @@
 /* outros devices */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: linear-gradient(45deg, var(--cor01), var(--cor02));
+    }
+
     section#login {
-        display: inline;
         height: 80%;
-        width: 80%;
-        max-width: 85%;
+        width: 90vw;   
     }
 
     section#login > div#imagem {
-        display: inline-block;
+        float: left;
         height: 100%;
         width: 35%;
     }
 
     section#login > div#formulario {
-        position: inherit;
-        display: inline-block;
+        float: right;
         height: 100%;
         width: 65%;
-        padding: 2rem;
+        margin: auto;
+        padding: 1rem;
     }
 
     section#login > div#formulario > h1 {
@@ -50,27 +52,27 @@
 }
 
 @media screen and (min-width: 992px) and (max-width:1200px) {
+    body {
+        background: linear-gradient(45deg, var(--cor01), var(--cor02));
+    }
+    
     section#login {
-        display: inline;
-        height: 80%;
-        width: 70%;
-        max-width: 75%;
+        height: 85%;
+        width: 80vw;
     }
 
     section#login > div#imagem {
-        position: inherit;
-        right: 0;
-        display: inline-block;
+        float: right;
         height: 100%;
         width: 40%;
     }
 
     section#login > div#formulario {
-        position: inherit;
-        display: inline-block;
+        float: left;
         height: 100%;
         width: 60%;
-        padding: 2rem;
+        margin: auto;
+        padding: 1rem;
     }
 
     section#login > div#formulario > h1 {
@@ -100,28 +102,27 @@
 }
 
 @media screen and (min-width: 1200px) {
+    body {
+        background: linear-gradient(45deg, var(--cor01), var(--cor02));
+    }
+    
     section#login {
-        display: inline;
-        height: 80%;
-        width: 70%;
-        max-width: 75%;
+        height: 85%;
+        width: 950px;
     }
 
     section#login > div#imagem {
-        display: inline-block;
+        float: left;
         height: 100%;
-        width: 30%;
+        width: 45%;
     }
 
     section#login > div#formulario {
-        position: inherit;
-        right: 1rem;
-        display: inline-block;
+        float: right;
         height: 100%;
-        width: 70%;
-        padding: 3rem 1rem 3rem 2rem;
-        border-radius: 1rem;
-        background-color: var(--cor03);
+        width: 55%;
+        margin: auto;
+        padding: 1rem;
     }
 
     section#login > div#formulario > h1 {
@@ -141,7 +142,7 @@
 
     form > div#mail input[type = email], form > div#passw input[type = password] {
         height: 100%;
-        width: 94%;
+        width: 92%;
     }
 
     form div#botoes {
