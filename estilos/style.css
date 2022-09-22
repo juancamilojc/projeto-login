@@ -65,18 +65,20 @@ section#login > div#formulario {
 }
 
 section#login > div#formulario > h1 {
-    font-size: 1.25rem;
-    margin: 1rem 0 0.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 section#login > div#formulario > p {
     margin-bottom: 1rem;
+    font-size: 0.9rem;
 }
 
 form > div#mail, form > div#passw {
     display: block;
     position: relative;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     padding: 0.25rem 0.5rem 0.1rem;
     background-color: var(--cor02);
     color: var(--cor03);
@@ -98,7 +100,7 @@ form div#botoes {
     margin-top: 1rem;
 }
 
-form div#botoes input[type = submit], form div#botoes input[type = button] {
+form div#botoes input[type = submit], form div#botoes a {
     display: block;
     width: 100%;
     margin: 0.5rem 0;
@@ -110,9 +112,19 @@ form div#botoes input[type = submit], form div#botoes input[type = button] {
     font-weight: bold;
 }
 
-form div#botoes input[type = button] {
-    padding: 0.35rem;
+form div#botoes a {
+    position: relative;
+    padding: 0.5rem;
     background-color: var(--cor03);
     color: var(--cor01);
     border: 0.15rem solid var(--cor01);
+    text-align: center;
+    text-decoration: none;
+}
+
+form div#botoes a span {
+    position: relative;
+    margin-top: -1rem;
+    top: 0.4rem;
+    left: 0.25rem;
 }

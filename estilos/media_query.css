@@ -43,9 +43,8 @@
     form div#botoes {
         margin-top: 2rem;
     }
-
     
-    form div#botoes input[type = submit], form div#botoes input[type = button] {
+    form div#botoes input[type = submit] {
         margin: 1rem 0;
         padding: 0.5rem;
     }
