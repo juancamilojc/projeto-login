@@ -110,6 +110,7 @@ form div#botoes input[type = submit], form div#botoes a {
     border: none;
     border-radius: 0.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 form div#botoes a {
