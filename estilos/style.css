@@ -75,6 +75,11 @@ section#login > div#formulario > p {
     font-size: 0.9rem;
 }
 
+span.material-icons {
+    width: 10%;
+    height: 100%;
+}
+
 form > div#mail, form > div#passw {
     display: block;
     position: relative;
